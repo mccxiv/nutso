@@ -1,0 +1,12 @@
+{
+  "name": "nutso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nuts-serve": "^3.0.0"
+  }
+}
