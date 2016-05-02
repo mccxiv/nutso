@@ -18,5 +18,9 @@ app.get('/update/Tc-1.2.1-full.nupkg', (req, res) => {
   res.sendFile(path.join(__dirname, 'Tc-1.2.1-full.nupkg'));
 });
 
+app.get('/update/Tc-1.3.0-full.nupkg', (req, res) => {
+  res.sendFile(path.join(__dirname, 'Tc-1.3.0-full.nupkg'));
+});
+
 app.use(nuts.router);
 app.listen(process.env.PORT || 80);
